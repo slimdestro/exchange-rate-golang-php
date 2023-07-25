@@ -24,6 +24,9 @@ Stop container:
 ```sh
 docker-compose down  
 ```
+## Loom shoot
+
+[![Watch the video](https://static-00.iconduck.com/assets.00/loom-icon-512x155-uq8gnrp3.png)](https://www.loom.com/share/c02cf6d2b2694751af7caa4961165381?sid=0ea56c1b-bb60-45a2-b06a-a18fa883c034)
 
 ## Example
 
