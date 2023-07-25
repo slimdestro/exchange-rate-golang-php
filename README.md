@@ -1,5 +1,5 @@
 # exchange-rate-golang-php
-#### Create an application that will show the exchange rates of USD, EUR and GBP for the last 10 days
+#### Task: Create an application that will show the exchange rates of USD, EUR and GBP for the last 10 days
 
 <p>
   <a href="https://dev.to/slimdestro">
