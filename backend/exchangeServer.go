@@ -100,7 +100,12 @@ func storeExchangeRates(db *sql.DB, date time.Time, rates map[string]float64, ti
 }
 
 func syncRates(w http.ResponseWriter, r *http.Request) {
-	db, err := sql.Open("mysql", "root:Tetra@2021@tcp(localhost:3306)/akcommodities")
+	// password below will need to change: 
+	/**
+		- if running from docker then take password from docker-compose.yml
+		- if running without docker then you have the mysql password already
+	*/
+	db, err := sql.Open("mysql", "root:[password]@tcp(localhost:3306)/akcommodities")
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
