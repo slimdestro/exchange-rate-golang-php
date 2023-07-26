@@ -2,10 +2,10 @@
 #### Task: Create an application that will show the exchange rates of USD, EUR and GBP for the last 10 days
 
 <p>
-  <a href="https://dev.to/slimdestro">
+  <a href="https://www.modcode.dev/">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blue.svg/60px-Go_Logo_Blue.svg.png" height="50" alt="Go">
   </a>
-  <a href="https://dev.to/slimdestro">
+  <a href="https://www.modcode.dev/">
     <img src="https://juancenteno.info/wp-content/uploads/2017/02/php.png" height="50" alt="PHP">
   </a>
 </p>
