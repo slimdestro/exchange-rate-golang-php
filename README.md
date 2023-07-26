@@ -15,9 +15,8 @@
 
 [![Watch the video](https://static-00.iconduck.com/assets.00/loom-icon-512x155-uq8gnrp3.png)](https://www.loom.com/share/c02cf6d2b2694751af7caa4961165381?sid=0ea56c1b-bb60-45a2-b06a-a18fa883c034)
 
-## Setup
+## Setup 
 
-# Simple run:
 ```sh
 ./go run backend/exchangeServer.go
 ```
@@ -31,7 +30,7 @@ APIs:
 - Fetch : /[GET]http://localhost:8080/frontend
 ```
 
-# Run as container:
+## Run as container:
 
 ```sh
 docker-compose up -d
@@ -43,14 +42,14 @@ Stop container:
 docker-compose down  
 ```
 
-# Run on kubernetes: 
+## Run on kubernetes: 
 ```sh
 cd kubemenifests
 kubectl apply -f{all 4 files one by one}
 this will deploy and create servicve for both app
 ```
 
-# Via Terraform: 
+## Via Terraform: 
 ```sh
 theres a Terraform folder in root. just need to run main.tf
 terraform init 
@@ -59,4 +58,4 @@ terraform apply
 
 ## Author
 
-[slimdestro(Mukul Mishra)](https://linktr.ee/slimdestro)
+[slimdestro(Mukul Mishra)](https://www.modcode.dev)
