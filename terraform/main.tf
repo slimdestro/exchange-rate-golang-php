@@ -1,5 +1,7 @@
+# out of scope but if need to provision server(aws) then terraform best suits
+
 provider "kubernetes" {
-  config_path = "~/.kube/config"  # Path to your kubeconfig file with AWS EKS credentials
+  config_path = "~/.kube/config"
 }
 
 resource "kubernetes_namespace" "frontend_namespace" {
@@ -52,7 +54,7 @@ resource "kubernetes_deployment" "frontend" {
         volume {
           name = "frontend-files"
           host_path {
-            path = "/path/to/frontend-files"  # Replace with the absolute path to your frontend files
+            path = "C:\laragon\www\akc_test\frontend" 
           }
         }
       }
