@@ -1,5 +1,5 @@
 # exchange-rate-golang-php
-#### Exchange rate of last 10 days:Backend(Golang) & UI(PHP/HTML)
+#### Exchange rate of last 10 days:Backend(Golang) | UI(PHP/HTML) | Deployment(Docker + K8 + TF)
 
 <p>
   <a href="https://www.modcode.dev/">
