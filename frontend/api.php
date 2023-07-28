@@ -2,7 +2,7 @@
     /***
 	- api.php: serves frontend/index.php 
     - curl is required otherwise the backend(golang) will need some extra header to make it open for all origins(CORS error)
-	- Author: Mukul(https://github.com/slimdestro) | https://www.modcode.dev
+	- Author: https://github.com/slimdestro | https://www.modcode.dev
     */
     $api_url = 'http://localhost:8080/frontend';
     $ch = curl_init();

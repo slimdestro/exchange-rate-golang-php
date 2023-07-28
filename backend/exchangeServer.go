@@ -1,7 +1,7 @@
 /**
 	- syncRates: call exchange api
 	- frontend: fetches data stored in mysql table by syncRate api
-	- Author: Mukul(https://github.com/slimdestro) | https://www.modcode.dev
+	- Author: https://github.com/slimdestro | https://www.modcode.dev
 */
 package main
 
@@ -105,7 +105,7 @@ func syncRates(w http.ResponseWriter, r *http.Request) {
 		- if running from docker then take password from docker-compose.yml
 		- if running without docker then you have the mysql password already
 	*/
-	db, err := sql.Open("mysql", "root:[password]@tcp(localhost:3306)/akcommodities")
+	db, err := sql.Open("mysql", "root:Tetra@2021@tcp(localhost:3306)/akcommodities")
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return

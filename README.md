@@ -1,5 +1,5 @@
 # exchange-rate-golang-php
-#### Task: Create an application that will show the exchange rates of USD, EUR and GBP for the last 10 days
+#### Exchange rate of last 10 days:Backend(Golang) & UI(PHP/HTML)
 
 <p>
   <a href="https://www.modcode.dev/">
@@ -58,4 +58,4 @@ terraform apply
 
 ## Author
 
-[slimdestro(Mukul Mishra)](https://www.modcode.dev)
+[Checkout my Website](https://www.modcode.dev)
